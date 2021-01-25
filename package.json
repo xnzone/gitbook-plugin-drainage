@@ -5,7 +5,7 @@
   "version": "0.0.1",
   "author": {
     "name": "xnzone",
-    "email": "iznfang@gmail.com"
+    "email": "ixnzone@foxmail.com"
   },
   "keywords": [
     "gitbook",
@@ -20,9 +20,5 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/xnzone/gitbook-plugin-drainage.git"
-  },
-  "license": "Apache 2",
-  "dependencies": {
-    "moment": "^2.10.6"
   }
 }
