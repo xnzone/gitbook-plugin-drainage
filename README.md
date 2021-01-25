@@ -3,9 +3,16 @@
 
 * 插件配置
 ```javascript
-"drainage" : {
-    "image": "https://gitee.com/ixnzone/img-bed/raw/master/wechat.jpg",
-    "height": "411",
-    "width": "540"
+{
+    "plugins": [
+        "drainage@git+https://github.com/xnzone/gitbook-plugin-drainage.git#0.0.1"
+    ],
+    "pluginsConfig": {
+        "drainage" : {
+            "image": "https://gitee.com/ixnzone/img-bed/raw/master/wechat.jpg",
+            "height": "411",
+            "width": "540"
+        }
+    }
 }
 ```
