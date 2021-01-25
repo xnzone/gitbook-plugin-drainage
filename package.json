@@ -1,0 +1,28 @@
+{
+  "name": "gitbook-plugin-drainage",
+  "description": "定制每篇文章的页脚，添加引流图片，如微信公众号二维码",
+  "main": "index.js",
+  "version": "0.0.1",
+  "author": {
+    "name": "xnzone",
+    "email": "iznfang@gmail.com"
+  },
+  "keywords": [
+    "gitbook",
+    "gitbook-plugin",
+    "footer",
+    "drainage"
+  ],
+  "engines": {
+    "gitbook": ">=2.4.3"
+  },
+  "homepage": "https://github.com/xnzone/gitbook-plugin-drainage",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xnzone/gitbook-plugin-drainage.git"
+  },
+  "license": "Apache 2",
+  "dependencies": {
+    "moment": "^2.10.6"
+  }
+}
