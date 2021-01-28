@@ -15,8 +15,7 @@ module.exports = {
           _height = this.options.pluginsConfig['drainage']['height'] || _height
           _width = this.options.pluginsConfig['drainage']['width'] || _width
       }
-      var str = ' \n\n<footer class="drainage-footer"><div align="center"><img src="' + _bg + 
-      '" height="' + _height + '" width="'+ _width + '" /></div></footer>'
+      var str = ' \n\n<footer class="drainage-footer"><div style="margin:auto;height:'+_height+'px;width:'+_width+'px;"><img src="'+_bg+'" /></div></footer>'
       page.content = page.content + str;
       return page;
     }
